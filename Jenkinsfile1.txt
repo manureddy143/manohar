@@ -1,11 +1,11 @@
 pipeline {
 
   environment {
-    PROJECT = "gke-nonprod-1"
+    PROJECT = "My Project suri"
     APP_NAME = "sample"
     FE_SVC_NAME = "${APP_NAME}"
-    CLUSTER = "gke-apps"
-    CLUSTER_ZONE = "asia-southeast2-c"
+    CLUSTER = "cluster-1"
+    CLUSTER_ZONE = "us-central1-c	"
     IMAGE_TAG = "us.gcr.io/${PROJECT}/${APP_NAME}:latest"
     JENKINS_CRED = "${PROJECT}"
   }
