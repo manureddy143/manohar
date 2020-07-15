@@ -2,7 +2,7 @@ pipeline {
 
   environment {
     PROJECT = "My Project suri"
-    APP_NAME = "sample"
+    APP_NAME = "reddy"
     FE_SVC_NAME = "${APP_NAME}"
     CLUSTER = "jenkins-cicd"
     CLUSTER_ZONE = "us-central1-c	"
